@@ -1,0 +1,126 @@
+body{
+    background-image: url("../imagens/fundo_1.jpg");
+    margin: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caixas{
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    margin:auto;
+    color: rgb(48, 150, 99);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+h4{
+    color: red;
+}
+
+input[type="text"], input[type="password"], input[type="number"]{
+    text-align: center;
+}
+
+button, input[type="submit"]{
+    background-color: rgba(0, 255, 255, 0.5);
+    color: rgb(48, 150, 99);
+    font-size: 14px;
+    border: 1px dotted black;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+button:hover, input[type="submit"]:hover{
+    font-size: 16px;
+    transition-duration: 500ms;
+}
+
+button:disabled{
+    background-color: rgba(163, 179, 179, 0.5);
+    color: rgb(48, 150, 99);
+    transition-duration: 500ms;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bv_titulo{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.menu{
+    color: rgb(48, 150, 99);
+    font-weight: bold;
+    margin: 20px 10px;
+    padding: 0px !important;
+    width: fit-content !important;   
+}
+
+.menu:hover{
+    color: cyan;
+    font-size: 18px;       
+}
+
+.active{
+    color: rgb(48, 150, 99)!important;
+    text-decoration: underline cyan 4px;
+}
+
+form{
+    color: black;
+    font-size: 16px;
+}
+
+table, td, th {
+    border: 3px dashed rgb(42, 102, 102); 
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:black;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 255, 255, 0.15);
+}
+
+tr:hover{
+    background-color: rgba(255, 255, 0, 0.25);
+}
+
+
+td{
+    font-weight: bold;
+    color: rgb(48, 150, 99);
+}
+
+td:hover{
+    background-color: rgba(255, 255, 0, 0.5) !important;
+}
+
+th, td{
+    height: 40px;
+}
+
+th:hover{
+    background-color: rgba(255, 255, 0, 0);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: bold;
+}
+
+
